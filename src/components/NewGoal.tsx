@@ -21,7 +21,7 @@ export default function NewGoal({ onAddGoal }: NewGoalProps) {
   return (
     <form onSubmit={handleSubmit}>
       <p>
-        <label htmlFor="goal">Your goal</label>
+        <label htmlFor="goal">Add Your goal</label>
         <input id="goal" type="text" ref={goal} />
       </p>
       <p>
